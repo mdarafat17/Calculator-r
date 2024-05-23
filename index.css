@@ -11,6 +11,8 @@ button {
 }
 .main {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #Screen{
   background-color: rgb(84, 83, 83);
@@ -24,10 +26,11 @@ button {
   border-radius: 25px;
 }
 .div02{
-  margin: 50px 600px 50px 600px;
+  margin: 50px 50px 50px 50px;
   background-color: black;
   padding: 15px;
   border-radius: 25px;
+  position: ;
 }
 
 .top1 button{
