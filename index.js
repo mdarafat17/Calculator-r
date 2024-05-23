@@ -19,7 +19,9 @@ for (let i = 0; i < btn.length; i++){
     
     else {
       if (btn[i].innerHTML == "AC") {
-      screen.innerHTML = ''
+        screen.innerHTML = ''
+        screen.style.paddingButton = "17px"
+        screen.style.paddingTop = "17px"
       }
       
       else {
