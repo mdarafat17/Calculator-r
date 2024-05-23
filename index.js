@@ -7,7 +7,17 @@ for (let i = 0; i < btn.length; i++){
     if (btn[i].innerHTML == "="){
     screen.innerHTML = eval(screen.innerHTML)
 
-  } else {
+    }
+    else if (btn[i].innerHTML == "DEL") {
+  screen.innerHTML = "Its Not Working"
+  
+    }
+       else if (btn[i].innerHTML == "%") {
+  screen.innerHTML = "Its Not Working"
+  
+}
+    
+    else {
       if (btn[i].innerHTML == "AC") {
       screen.innerHTML = ''
       }
