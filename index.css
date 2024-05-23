@@ -12,9 +12,11 @@ button {
 .main {
   display: flex;
 }
-.Screen{
+#Screen{
   background-color: rgb(84, 83, 83);
   padding: 17px 10px 17px 10px;
+  height: 17px;
+  padding-bottom: 17px;
   margin-bottom: 8px;
   color: rgb(0, 0, 0);
   text-align: end;
